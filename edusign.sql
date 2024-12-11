@@ -1,0 +1,15 @@
+-- Création de la table USERS : 
+-- CREATE TABLE users (
+-- id INTEGER PRIMARY KEY AUTOINCREMENT,
+-- firstname TEXT NOT NULL,
+-- lastname TEXT NOT NULL,
+-- email TEXT NOT NULL UNIQUE 
+-- );
+
+CREATE TABLE edusign (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+firstname TEXT NOT NULL,
+email TEXT NOT NULL UNIQUE,
+created_at DATETIME NOT NULL
+);
+
