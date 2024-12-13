@@ -36,7 +36,7 @@
 
 
  -- 1. Sélectionner toutes les lignes de la table users
- -- SELECT * FROM users;
+ SELECT * FROM users;
 
  -- 2. Sélectionner uniquement la ligne où le prénom est Ada dans la table users
 -- SELECT * FROM users WHERE firstname = 'Ada';
@@ -77,18 +77,3 @@
  -- 2. Compter le nombre de ligne au sein de la table edusign dont le prénom est Bella, le nom de la colonne finale doit être volume
     -- SELECT COUNT (*) FROM edusign JOIN users ON edusign.user_id = users.id WHERE firstname='Bella';
 
-
-SELECT * FROM users;
-
-
-
-
-
-
-
--- SELECT * FROM edusign;
-
--- SELECT * FROM edusign WHERE created_at = '2024-05-30 09:30:00' OR '2024-09-01 09:30:00';
-
-
--- SELECT * FROM users;
